@@ -9,7 +9,7 @@ while [ $count -ge 0 ]; do
         echo "$count blocks of cheese on the wall, $count blocks of cheese"
         echo "Take one down pass it around"
     elif [ $count -eq 1 ]; then
-        echo "$count block of cheese on the wall, $count block of cheese"
+        echo "1 block of cheese on the wall, 1 block of cheese"
         echo "Take one down pass it around"
     else
         echo "no more blocks of cheese on the wall"
